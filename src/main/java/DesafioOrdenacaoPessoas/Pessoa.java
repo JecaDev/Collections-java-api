@@ -13,8 +13,8 @@ public class Pessoa implements Comparable<Pessoa> {
     }
     //Implementação do método abstrato da Interface
     @Override
-    public int compareTo(Pessoa o) {
-        return 0;
+    public int compareTo(Pessoa p) {
+        return Integer.compare(idade, p.getIdade());
     }
 
     public String getNome() {

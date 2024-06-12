@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88a2a96c-1010-4b9c-a33d-54513338135a" name="Changes" comment="Criando Desafio Lista Tarefa">
-      <change afterPath="$PROJECT_DIR$/assets/list-interface-hierarchy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesafioOrdenacaoPessoas/OrdenacaoPessoas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DesafioOrdenacaoPessoas/Pessoa.java" afterDir="false" />
+    <list default="true" id="88a2a96c-1010-4b9c-a33d-54513338135a" name="Changes" comment="Resolvendo desafio Catalogo de Livros">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DesafioCatalogoLivros/CatalogoLivros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DesafioCatalogoLivros/CatalogoLivros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DesafioOrdenacaoPessoas/OrdenacaoPessoas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DesafioOrdenacaoPessoas/OrdenacaoPessoas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DesafioOrdenacaoPessoas/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DesafioOrdenacaoPessoas/Pessoa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +25,10 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2hkT2zYGQlzIFhFpHl7QiPhE7e4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,6 +43,7 @@
     "Application.CatalogoLivros.executor": "Run",
     "Application.ListaTarefas.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.comparatorPorAltura.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -60,7 +58,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CatalogoLivros">
+  <component name="RunManager" selected="Application.comparatorPorAltura">
     <configuration name="CatalogoLivros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesafioCatalogoLivros.CatalogoLivros" />
       <module name="Collections-java-api" />
@@ -87,8 +85,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="comparatorPorAltura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesafioOrdenacaoPessoas.comparatorPorAltura" />
+      <module name="Collections-java-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesafioOrdenacaoPessoas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.comparatorPorAltura" />
         <item itemvalue="Application.CatalogoLivros" />
         <item itemvalue="Application.ListaTarefas" />
       </list>
@@ -110,7 +122,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718136872762</updated>
-      <workItem from="1718136874092" duration="7013000" />
+      <workItem from="1718136874092" duration="7169000" />
+      <workItem from="1718212413187" duration="2084000" />
     </task>
     <task id="LOCAL-00001" summary="Criando Desafio Lista Tarefa">
       <option name="closed" value="true" />
@@ -128,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718141291207</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Resolvendo desafio Catalogo de Livros">
+      <option name="closed" value="true" />
+      <created>1718144022102</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718144022102</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +158,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Criando Desafio Lista Tarefa" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando Desafio Lista Tarefa" />
+    <MESSAGE value="Resolvendo desafio Catalogo de Livros" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolvendo desafio Catalogo de Livros" />
   </component>
 </project>
